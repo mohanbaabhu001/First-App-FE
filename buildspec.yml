@@ -10,6 +10,7 @@ phases:
       - npm install
       - echo Building APP
       - npm run build
+      - cd ../
       - cp appspec.yml build/
       - chmod -R +x scripts/
       - cp -r scripts/ build/
